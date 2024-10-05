@@ -1,0 +1,118 @@
+/* Grundlegende Stile für den Body */
+body {
+    background-color: rgb(10, 10, 10);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Video als Hintergrund */
+body video {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Container für Boxen */
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+/* Stil für Boxen */
+.box {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    border-radius: 5vh;
+    width: 200px;
+    height: 400px;
+    transition: all 0.5s ease 1s;
+    position: relative;
+    align-items: center;
+}
+
+/* Hover-Effekte für Boxen */
+.box:hover {
+    width: 600px;
+    height: 400px;
+    z-index: 999;
+}
+
+/* Stil für Bilder in den Boxen */
+.box img {
+    margin: 5px;
+    height: 64px;
+    width: 64px;
+}
+
+/* Stil für den Lade-Spinner */
+.loading-spinner {
+    display: none;
+    margin: 100px auto;
+    width: 50px;
+    height: 50px;
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-top: 8px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Stil für die Detailseite von Items */
+.item-container {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5vh;
+    width: 240px;
+    height: 440px;
+    transition: all 0.5s ease 1s; /* Immediate transform effect */
+    position: relative; /* Allows z-index to take effect */
+    z-index: 0; /* Default behind the image */
+}
+
+.box2:hover {
+    width: 640px; /* Increased size on hover */
+    height: 440px; /* Height remains the same */
+    z-index: 999; /* Bring the box to the front on hover */
+}
+
+.box2 video {
+    height: 100%;
+    width: 100%;
+    border-radius: 5vh;
+    object-fit: cover;
+    position: relative;
+    transition: all 0.5s ease 1s; /* Smooth transition without delay */
+    z-index: 998; /* Image and video are still on top of the box */
+}
+
+.box video {
+    height: 100%;
+    width: 100%;
+    border-radius: 5vh;
+    object-fit: cover;
+    position: relative;
+    transition: all 0.5s ease 1s; /* Smooth transition without delay */
+    z-index: 998; /* Image and video are still on top of the box */
+}
