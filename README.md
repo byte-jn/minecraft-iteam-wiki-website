@@ -1,4 +1,4 @@
-# Minecraft-Block-Wiki-Website
+# Minecraft-Iteam-Wiki-Website
  
 Dieses Projekt ist eine einfache Webanwendung, die die Minecraft API verwendet, um Minecraft-Items basierend auf der Benutzereingabe anzuzeigen. Die Anwendung besteht aus zwei Seiten: einer Hauptseite (index.html), auf der der Benutzer den Namen eines Minecraft-Items eingeben kann, und einer zweiten Seite, die das ausgewählte Item anzeigt.
 
