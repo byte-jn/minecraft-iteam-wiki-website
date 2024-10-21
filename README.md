@@ -24,11 +24,3 @@ HTML: Für die Struktur der Webanwendung.
 CSS: Für das Styling der Seiten.
 JavaScript: Für die Interaktion mit der Minecraft API und die dynamische Anzeige der Ergebnisse.
 Minecraft Items API: Für das Abrufen der Item-Daten.
-
-# Vorschläge und Verbesserungen
-Implementiere eine Fehlermeldung, falls das gesuchte Item nicht gefunden wird.
-Füge eine Auto-Vervollständigungsfunktion hinzu, um Benutzern bei der Eingabe zu helfen.
-Weitere Seiten für detailliertere Informationen zu Minecraft-Items oder eine Vergleichsfunktion.
-
-# Lizenz
-Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der LICENSE Datei.
